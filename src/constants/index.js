@@ -114,7 +114,7 @@ const experiences = [
     company_name: "Caterings",
     icon: caterings,
     iconBg: "#1A1A1A",
-    date: "Jan 2023 - Sep 2023",
+    date: "Apr 2024 - Present",
     points: [
       "Spearheaded the redesign of website pages, enhancing user experience and visual appeal.",
       "Successfully integrated real-time messaging functionality, optimizing user engagement and interaction.",
