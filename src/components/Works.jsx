@@ -33,8 +33,9 @@ const ProjectCard = ({
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
-          {source_code_link && (
-            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+
+          <div className="absolute inset-0 flex justify-end m-3 gap-2">
+            {source_code_link && (
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -45,14 +46,38 @@ const ProjectCard = ({
                   className="w-1/2 h-1/2 object-contain"
                 />
               </div>
-            </div>
-          )}
+            )}
+            {preview_link && (
+              <a
+                href={preview_link}
+                target="_blank"
+                rel="noreferrer"
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" />
+                </svg>
+              </a>
+            )}
+          </div>
         </div>
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
+
         <div className="flex flex-wrap gap-2 mt-auto">
           {tags.map((tag) => (
             <p
@@ -89,7 +114,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7 justify-center items-stretch ">
+      <div className="mt-20 flex flex-wrap gap-7 justify-start items-stretch ">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

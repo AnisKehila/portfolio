@@ -20,17 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import litidea from "./company/litidea.png";
+import caterings from "./company/caterings.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import wareed from "./wareed.jpg";
+import cateringsWebSite from "./caterings.png";
 import lito from "./lito.png";
 import litideaWeb from "./litidea.png";
 
@@ -40,6 +37,7 @@ export {
   creator,
   mobile,
   web,
+  cateringsWebSite,
   github,
   menu,
   close,
@@ -60,11 +58,8 @@ export {
   wareed,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  caterings,
 };

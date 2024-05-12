@@ -16,10 +16,11 @@ import {
   figma,
   docker,
   litidea,
+  caterings,
   litideaWeb,
   lito,
-  tripguide,
   threejs,
+  cateringsWebSite,
 } from "../assets";
 
 export const navLinks = [
@@ -47,7 +48,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "React Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
 ];
@@ -109,6 +110,20 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Front End Web Developer",
+    company_name: "Caterings",
+    icon: caterings,
+    iconBg: "#1A1A1A",
+    date: "Jan 2023 - Sep 2023",
+    points: [
+      "Spearheaded the redesign of website pages, enhancing user experience and visual appeal.",
+      "Successfully integrated real-time messaging functionality, optimizing user engagement and interaction.",
+      " Proficiently utilized cutting-edge web technologies including Next.js, Tailwind CSS, and Shadcn/ui, ensuring sleek and responsive design.",
+      " Monitored and resolved web errors efficiently by utilizing Sentry, ensuring optimal performance and reliability.",
+      "Collaborated closely with a dynamic team comprising a manager, web developer, and UI/UX designer, fostering a synergistic environment for innovation and project success.",
+    ],
+  },
+  {
     title: "Web Developer",
     company_name: "Litidea",
     icon: litidea,
@@ -142,7 +157,27 @@ const projects = [
       },
     ],
     image: wareed,
-    preview_link: "https://wareed-dz.com/",
+    preview_link: "https://wareed-seven.vercel.app/",
+  },
+  {
+    name: "Caterings",
+    description: `An innovative web and mobile platform by our dynamic team , revolutionizing the food truck industry. Seamlessly merging technology with culinary delight.`,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cateringsWebSite,
+    preview_link: "https://caterings.com.au/",
   },
   {
     name: "Lito - shopping cart",
@@ -173,8 +208,7 @@ const projects = [
       },
     ],
     image: litideaWeb,
-    source_code_link: "https://github.com/AnisKehila/Litedia",
-    preview_link: "https://aniskehila.github.io/Litedia/",
+    preview_link: "https://litidea.vercel.app/",
   },
 ];
 

@@ -47,12 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am an experienced software developer with expertise in TypeScript and
-        JavaScript. I have knowledge of frontend frameworks such as React and
-        React Native, as well as backend technologies like Node.js (Express,
-        Nest...) and php. I am a quick learner and work closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems.
+        I am a web developer with industry experience building websites and web
+        applications. I specialize in JavaScript and its modern frameworks and
+        libraries. I have experience working with React, Next and TypeScript.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 items-center justify-center">
